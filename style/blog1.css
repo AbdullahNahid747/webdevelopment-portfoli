@@ -80,11 +80,15 @@ nav a{
     
 }
 /* main related style */
+main{
+    max-width: 1140;
+    margin: 0 a;
+}
 .section{
     margin: 130px;
     padding: 130px;
      border-radius: 10px;
-     background: #FFF8F3;
+     background: #f3ede9;
 }
 .about{
     color: #181818;
@@ -97,4 +101,24 @@ nav a{
     text-align: center;
     font-size: 18px;
     font-weight: 400px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+    color:  #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+.about-info{
+    align-items: center;
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
