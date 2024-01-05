@@ -16,6 +16,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 85px 298px;
 }
 .nv{
     color: var(--Dark-01, #181818);
@@ -34,3 +35,28 @@ nav a{
     text-decoration: none;
     color: var(--Dark-02, #474747);
 }
+/* header related style */
+.hee{
+    background: #ece3dd;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 584px;
+    height: 676px;
+}
+/* .banner{
+    padding: -34px -72px 3453px -72;
+}
+.h3{
+    padding: 330px 1120px 445px 302px;
+}
+.h1{
+    padding: 397px 800px 324px 302px;
+}
+.p{
+    padding: 533px 713px 224px 302px;
+} */
