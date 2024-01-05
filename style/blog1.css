@@ -37,26 +37,64 @@ nav a{
 }
 /* header related style */
 .hee{
-    background: #ece3dd;
+    background: var(--White-Color, #FFF);;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+       
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .img{
     width: 584px;
-    height: 676px;
+    /* height: 676px; */
 }
 /* .banner{
     padding: -34px -72px 3453px -72;
-}
+} */
 .h3{
-    padding: 330px 1120px 445px 302px;
+    font-size: 45px;
+    color: var(--Dark-02, #474747);
+    margin-bottom: 5px;
 }
 .h1{
-    padding: 397px 800px 324px 302px;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    Mary Hardy
+    color: var(--Dark-01, #181818);
 }
 .p{
-    padding: 533px 713px 224px 302px;
-} */
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 49px;
+    
+}
+/* main related style */
+.section{
+    margin: 130px;
+    padding: 130px;
+     border-radius: 10px;
+     background: #FFF8F3;
+}
+.about{
+    color: #181818;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.para{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+}
