@@ -189,10 +189,31 @@ footer{
     background: #f3eae3;
     padding: 130px 230px;
     margin-top: 112px;
+    gap: 117px;
 }
 .section-title{
     color:  #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+}
+.footer-colume{
+    width: 562px;
+    color:  #474747;
+    font-weight: 400;
+}
+.socile-link a{
+    margin-right: 25px;
+}
+
+/* Form style */
+.Contact input[type=text],.Contact input[type=Email], textarea{
+    display: flex;
+    margin-bottom: 24px;
+    padding: 18px;
+    color: #757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    width: 100%;
 }
